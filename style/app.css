@@ -23,26 +23,29 @@ div.advice-el {
   padding: 40px 40px 60px 40px;
   border-radius: 12px;
   margin: 10px;
+  max-width: 450px;
 }
 
 h1 {
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #52ffa8;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 p {
   font-size: 1.75rem;
   color: #cee3e9;
   font-weight: 800;
+  flex-wrap: wrap;
 }
 
 img.divider {
   margin: 0 auto;
   display: block;
   max-width: 90%;
+  padding: 10px 0;
 }
 
 img.mobile-divider {
@@ -70,6 +73,7 @@ button:hover {
   color: #cee3e9;
   font-size: 0.75rem;
   padding-bottom: 10px;
+  font-weight: 600;
 }
 
 .attribution a {
@@ -89,5 +93,13 @@ button:hover {
 
   img.mobile-divider {
     display: block;
+  }
+
+  div.advice-el {
+    padding: 40px 14px 60px 14px;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 }
